@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#navbar{
+    /* background-color: black; */
+    
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+#navbar ul{
+    display: flex;
+    padding-left: 375px;
+}
+
+#navbar li{
+    padding:20px 25px;
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 3px 22px;
+    font-family: cursive;
+    
+    
+}
+#navbar li a:hover{
+    
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    transition:all 1s ease-in-out .5s;
+    animation: shake 0.5s;
+    animation-iteration-count: 3s;
+
+    
+}
+#navbar::before{
+    content: "";
+    background-color:black;
+    position: absolute;
+    height:100%;
+    width:100%;
+    z-index:-1;
+    opacity:.5;
+    
+}
+
+
+body::before{
+    content: "";
+    background:url('pexels-pixabay-258173.jpg') no-repeat center center/cover;
+    position: absolute;
+    height:110%;
+    width:100%;
+    z-index:-1;
+    /* opacity:.59; */
+    top: 0;
+    left: 0;
+    /* background-color: rgb(236, 162, 65); */
+
+}
+
+#login{
+    /* border: 2px solid red; */
+    width:234px;
+    height:175px;
+    /* background-color: rgb(178, 234, 203); */
+    /* opacity:0.5; */
+    margin-top: 25px;
+    margin-left: 25px;
+    /* background-color: black; */
+    background-color: cornsilk;
+    /* transition:all 1s ease-in-out 1s; */
+    opacity:.5;
+
+}
+
+#login-section h2{
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+/* #login-section{
+    margin-left:10px;
+} */
+
+
+.input{
+    /* opacity: 0.4; */
+    background-color: black;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 8px;
+    color: red;
+    font-weight:bold;
+}
+
+#btn1{
+    /* opacity:0.4; */
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size:15px;
+    margin: 10px 40px;
+    
+}
+#btn2{
+    /* opacity:0.4; */
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size:15px;
+    margin: 10px -20px;
+    
+}
+
+#FAQ{
+    /* border: 2px solid red; */
+    width:234px;
+    height:275px;
+    margin-top: 20px;
+    margin-left: 25px;
+    background-color: #8ed7dd;
+     /* background-color: whitesmoke; */
+    opacity: .5;
+    /* transition:all 1s ease-in-out 1s; */
+
+}
+#FAQ-section h2{
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight: bold;
+    
+}
+#FAQ-section p{
+    font-weight: bold;
+    margin-left: 15px;
+    padding:6px;
+    
+}
+
+#points{
+    
+    margin-left: 302px;
+    margin-top: -476px;
+    height: 440px;
+    width: 650px;
+    /* border: 2px solid red; */
+    background-color: #d1c2b8;
+    opacity: .5;
+    /* transition:all 1s ease-in-out 1s; */
+    
+    
+}
+#points h2{
+    padding-top:10px;
+    text-align: center;
+    font-weight: bold;
+}
+#links{
+    
+    margin-left: 1000px;
+    margin-top: -444px;
+    height: 175px;
+    width: 250px;
+    /* border: 2px solid red; */
+    background-color: antiquewhite;
+    /* transition:all 1s ease-in-out 1s; */
+    opacity: .5;
+
+}
+#links h2{
+    text-align: center;
+}
+#Consumption {
+    margin-left: 1000px;
+    margin-top: 25px;
+    height: 175px;
+    width: 250px;
+    /* border: 2px solid red; */
+    background-color: aquamarine;
+    /* transition:all 1s ease-in-out 1s; */
+    opacity:.5;
+
+}
+#Consumption h3{
+    text-align: center;
+
+}
+#bottem{
+    
+    /* height: 50px; */
+    /* background-color: red; */
+    margin-top: 90px;
+    width: 400px;
+    margin-left:430px;
+}
+#bottem p{
+    text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 23px;
+    /* font-family: 'Kanit', sans-serif; */
+    margin-top: 8px;
+    font-weight: bold;
+    color: wheat;
+    font-weight: bold;
+}
+
+#login:hover{
+    box-shadow: 5px 7px 30px 5px rgb(243 240 216);
+    border: 2px solid black;
+}
+#points:hover{
+    box-shadow: 5px 7px 30px 5px rgb(243 240 216);
+    border: 2px solid black;
+}
+#FAQ:hover{
+    box-shadow: 5px 7px 30px 5px rgb(243 240 216);
+    border: 2px solid black;
+}
+#links:hover{
+    box-shadow: 5px 7px 30px 5px rgb(243 240 216);
+    border: 2px solid black;
+}
+#Consumption:hover{
+    box-shadow: 5px 7px 30px 5px rgb(243 240 216);
+    border: 2px solid black;
+}
+
+#points ul {
+    padding-top: 15px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+
+}
+#points ul li{
+    padding:4px;
+    color: #4e00ffc7;
+}
+#Consumption ol,#links ol{
+    padding-top: 20px;
+    margin-left: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#Consumption ol li,#links ol li{
+    padding: 4px;
+}
+
+#links a:hover{
+    color: red;
+}
+#div{
+    height: 100vh;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
